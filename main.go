@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
-	"strings"
 
 	"github.com/joho/godotenv"
 
@@ -13,7 +11,7 @@ import (
 
 func main() {
 
-	fmt.Println(strings.EqualFold("Methods", "methods"))
+	// fmt.Println(strings.EqualFold("Methods", "methods"))
 	r := m.Handler()
 	if err := godotenv.Load(); err != nil {
 		log.Fatal(err)

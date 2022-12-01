@@ -7,17 +7,8 @@ package methods
 // )
 
 import (
-	"encoding/json"
-	//model "github.com/Mubeena-Ishaq/RESTAPI/methods"
-	"log"
-	//"model"
-	//"github.com/Mubeena-Ishaq/RESTAPI"
-	"net/http"
-	//"net/url"
-	"strconv"
-
-	// "github.com/google/uuid"
 	"github.com/gorilla/mux"
+	"net/http"
 	//"github.com/joho/godotenv"
 )
 
