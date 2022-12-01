@@ -1,4 +1,4 @@
-package main
+package methods
 
 //import "github.com/google/uuid"
 
