@@ -14,7 +14,7 @@ var latestCusId int = 0
 // Create Customer
 func createCustomer(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-
+git statusr
 	// Get Connect
 	db, err := connect()
 	if err != nil {
